@@ -39,7 +39,6 @@ public  class IdleActionPlay implements IActionForIdle {
 
     private short single_time = 900;
 
-   // public IdleActionPlay(Alpha2SerialServiceUtil serialService, IIdlerCallBack callBack){
    public IdleActionPlay(final IIdlerCallBack callBack){
         mHandlerThread = new HandlerThread("AbsIdleAction");
         mHandlerThread.start();
@@ -51,13 +50,18 @@ public  class IdleActionPlay implements IActionForIdle {
                     case ACTION_START_PLAY:
                         Log.d(TAG,"mPacketIndex="+mPacketIndex+"    packetDatas.length="+packetDatas.length);
                         if(mPacketIndex < packetDatas.length){
-
-                            MotorAngle[] mas = new MotorAngle[18];
+                           int value=0;
+                            MotorAngle[] mas = new MotorAngle[20];
                             for(int i=0;i<18;i++){
                                 mas[i]=new MotorAngle();
                                 mas[i].setId(i+1);
-                                mas[i].setAngle( packetDatas[mPacketIndex].getBuffer()[i]);
-                                Log.i(TAG, "The Motion angles :" +  packetDatas[mPacketIndex].getBuffer()[i]);
+                                if(packetDatas[mPacketIndex].getBuffer()[i]<0){
+                                    value=256+packetDatas[mPacketIndex].getBuffer()[i];
+                                }else {
+                                    value=packetDatas[mPacketIndex].getBuffer()[i];
+                                }
+                                mas[i].setAngle(value);
+                                Log.i(TAG, "The Motion angles :" +  value);
                             }
                             MotionRobotApi.get().setMotorAbsoluteAngles(mas, single_time, new MotorSetAngleResultListener() {
                                 @Override
@@ -105,12 +109,14 @@ public  class IdleActionPlay implements IActionForIdle {
      * @param dataMsg
      * @return package action datas
      */
-    protected PacketData formatPacekt(byte[] dataMsg){
+   protected PacketData formatPacekt(byte[] dataMsg){
+//    protected PacketData formatPacekt(int[] dataMsg) {
         PacketData packetData = new PacketData(2);
-        for (int i = 0; i < dataMsg.length-2; i++) {
+        for (int i = 0; i < dataMsg.length - 2; i++) {
+//            packetData.putByte(dataMsg[i]);
             packetData.putByte(dataMsg[i]);
         }
-        short time = (short) ((dataMsg[dataMsg.length-2]+dataMsg[dataMsg.length-1])*ACTION_INTER);
+        short time = (short) ((dataMsg[dataMsg.length - 2] + dataMsg[dataMsg.length - 1]) * ACTION_INTER);
         packetData.putShort_(time);
         return packetData;
     }

@@ -27,7 +27,7 @@ public class IdleActionManager implements IIdlerCallBack {
     private static final int ACTION_IDLE_PLAY = 1;
 
     private static final int INTER_TIME = 30000;//idle action interval
-    private static final int START_TIME = 120*1000;//idle action start
+    private static final int START_TIME = 100;//idle action start
 
     public static IdleActionManager instance;
     private IActionForIdle[] actions;

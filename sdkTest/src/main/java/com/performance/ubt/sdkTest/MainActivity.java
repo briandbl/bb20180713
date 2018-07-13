@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         //Test standard Android Audio Recorder function
        //fgLists.add(new RecorderFragment());
        //Test Iflytek standard Recorder function
-        fgLists.add(new IflytekRecoderFragment());
+        //fgLists.add(new IflytekRecoderFragment());
        fgLists.add(new SysFragment());
         fgLists.add(new AcceleratorFragment());
         FragmentPagerAdapter mAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {

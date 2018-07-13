@@ -208,6 +208,8 @@ public class PacketData implements Serializable{
 		// return buffer.array();
 	}
 
+
+
 	/**
 	 * 将int转为低字节在前，高字节在后的byte数组
 	 * 
