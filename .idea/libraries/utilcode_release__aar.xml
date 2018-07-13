@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="utilcode-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/utilcode-release.aar/0d63cd5996df03a1d8feef7216e9616c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/utilcode-release.aar/0d63cd5996df03a1d8feef7216e9616c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/utilcode-release.aar/0d63cd5996df03a1d8feef7216e9616c/jars/libs/org-apache-zip-1.9.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

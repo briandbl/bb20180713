@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sdk Test</string>
+    <string name="led_test">led Test</string>
+    <string name="speech_test">Speech Test</string>
+    <string name="title_led">led Test</string>
+    <string name="title_motion">motor Test</string>
+    <string name="title_speech">speech Test</string>
+    <string name="title_system">sys Test</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Copyright (c) 2008-2016 UBT Corporation.  All rights reserved.  Redistribution,
+  ~  *  modification, and use in source and binary forms are not permitted unless otherwise authorized by UBT.
+  ~  *
+  ~  */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/txt_title"
+        android:layout_centerHorizontal="true"
+        android:text="iflytek_recoder"/>
+
+    <Button
+        android:id="@+id/btn_recoder_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        style="@style/txt_next"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_edittext"
+        android:text="recoder_start"/>
+
+    <Button
+        android:id="@+id/btn_recoder_stop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/txt_next"
+        android:layout_below="@+id/btn_recoder_start"
+        android:visibility="gone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_edittext"
+        android:text="recoder_stop"/>
+
+    <LinearLayout
+        android:id="@+id/mic_play_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/btn_recoder_start">
+
+        <Button
+            android:id="@+id/mic1_play_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_edittext"
+            android:text="Mic "
+            style="@style/txt_next" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

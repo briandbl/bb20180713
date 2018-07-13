@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="txt_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">58dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@color/color_transparent</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="txt_sub_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@color/color_transparent</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="txt_next">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@color/color_transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="CustomRightRadioBtn" mce_bogus="1">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:drawableLeft">@drawable/selector_radio_button</item>
+    </style>
+</resources>

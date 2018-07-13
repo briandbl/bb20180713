@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="speechcontext-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speechcontext-release.aar/833fdbfab201f732650899c32b32151e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speechcontext-release.aar/833fdbfab201f732650899c32b32151e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

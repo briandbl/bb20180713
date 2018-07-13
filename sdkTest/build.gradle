@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.performance.ubt.sdkTest"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters 'armeabi'
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file("rk-debug.keystore")
+            storePassword "ubt83474428"
+            keyAlias "androiddebugkey"
+            keyPassword "ubt83474428"
+        }
+        debug {
+            storeFile file("rk-debug.keystore")
+            storePassword "ubt83474428"
+            keyAlias "androiddebugkey"
+            keyPassword "ubt83474428"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+           proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug_proguard {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ["libs"]
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    google()
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.+'
+    compile 'com.android.support:design:25.+'
+    testCompile 'junit:junit:4.12'
+    compile(name: 'servicesdk-release', ext: 'aar')
+    compile(name: 'speechcontext-release', ext: 'aar')
+    compile(name: 'utilcode-release', ext: 'aar')
+    implementation files('libs/ubt_framework_1.0.jar')
+    implementation files('libs/alsarecorder.jar')
+    implementation files('libs/Cae.jar')
+
+}

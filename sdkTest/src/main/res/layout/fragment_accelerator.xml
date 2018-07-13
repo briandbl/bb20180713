@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  * Copyright (c) 2008-2016 UBT Corporation.  All rights reserved.  Redistribution,
+  ~  *  modification, and use in source and binary forms are not permitted unless otherwise authorized by UBT.
+  ~  *
+  ~  */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/txt_title"
+        android:layout_centerHorizontal="true"
+        android:text="Test Accelerometer"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="read sensor data"/>
+
+    <LinearLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_start"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/txt_sub_title"
+            android:layout_centerHorizontal="true"
+            android:text="data:"/>
+
+        <TextView
+            style="@style/txt_sub_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="x:"
+            />
+
+        <TextView
+            android:id="@+id/data_x"
+            style="@style/txt_sub_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_gray"
+            />
+
+        <TextView
+            style="@style/txt_sub_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="y:"
+            />
+
+        <TextView
+            android:id="@+id/data_y"
+            style="@style/txt_sub_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_gray"
+            />
+
+        <TextView
+            style="@style/txt_sub_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="z:"
+            />
+
+        <TextView
+            android:id="@+id/data_z"
+            style="@style/txt_sub_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_gray"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            style="@style/txt_title"
+            android:layout_centerHorizontal="true"
+            android:text="Test Key"
+           />
+
+        <TextView
+            android:id="@+id/txt_result"
+            style="@style/txt_sub_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/data"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_head_middle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/iv_head_up"
+            />
+
+        <ImageView
+            android:id="@+id/iv_head_down"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/iv_head_middle"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/ic_touch_down" />
+
+        <ImageView
+            android:id="@+id/iv_head_up"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/iv_head_middle"
+            android:src="@drawable/ic_touch_up" />
+
+        <ImageView
+            android:id="@+id/iv_mute"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/iv_head_up"
+            android:layout_marginStart="45dp"
+            android:layout_toEndOf="@+id/iv_head_up"
+            android:src="@drawable/ic_dot" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pirSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/touch"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_pirEnable"
+        style="@style/txt_sub_title"
+        android:layout_alignStart="@+id/linearLayout3"
+        android:layout_below="@+id/touch"
+        android:layout_marginStart="24dp"
+        android:text="pirEnable" />
+
+    <Button
+        android:id="@+id/btn_pirDisable"
+        style="@style/txt_sub_title"
+        android:layout_alignBaseline="@+id/btn_pirEnable"
+        android:layout_alignBottom="@+id/btn_pirEnable"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/pirSensor"
+        android:text="pirDisable" />
+
+</RelativeLayout>

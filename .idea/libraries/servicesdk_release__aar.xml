@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="servicesdk-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/53ca12e801d3f139879d684bae29d528/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/53ca12e801d3f139879d684bae29d528/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
