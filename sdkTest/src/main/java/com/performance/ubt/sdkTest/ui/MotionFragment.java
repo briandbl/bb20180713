@@ -1,5 +1,6 @@
 package com.performance.ubt.sdkTest.ui;
 
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -7,6 +8,7 @@ import android.widget.Toast;
 
 import com.performance.ubt.sdkTest.R;
 import com.performance.ubt.sdkTest.idleActions.IdleActionManager;
+import com.performance.ubt.sdkTest.utils.CopyFolderFromAssets;
 import com.ubtechinc.alpha.sdk.motion.MotionRobotApi;
 import com.ubtechinc.alpha.serverlibutil.aidl.ActionInfo;
 import com.ubtechinc.alpha.serverlibutil.aidl.MotorAngle;
@@ -29,12 +31,22 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
     private static int SQUAT_AND_STANDUP=1;
     private static int MOVE_FORWARD=2;
     private IdleActionManager mIdleActionManager; //more frame action execution
+    private String extenalPath;
 
     @Override
     protected void initView() {
         //init view
         initButton();
         MotionRobotApi.get().initializ(mContext);
+        extenalPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        Thread progress = new ProcessThread();
+        progress.start();
+    }
+
+    private class ProcessThread extends Thread {
+        public void run() {
+                CopyFolderFromAssets.copyFolderFromAssets(mContext, "testActionResource/testaction", extenalPath + "/actions");
+        }
     }
 
     @Override
@@ -110,7 +122,7 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
                 break;
             case R.id.multi_FrameActions:
                 //NOT WOKE RUN, BRIAN NEED DEBUG THE FUNCTION
-                mIdleActionManager = IdleActionManager.getInstance();
+                mIdleActionManager = IdleActionManager.getInstance(mContext);
                 mIdleActionManager.startPlay();
                 break;
         }

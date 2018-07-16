@@ -21,11 +21,11 @@ public class FlytekWakeup implements IWakeup{
 
     private static final String TAG = "FlytekWakeup";
     //WAKE UP workd "你好，小薇"
-    public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/nihaoxiaowei.jet";
+   // public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/nihaoxiaowei.jet";
     //the following wake up need debug
    //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
    // public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/hello_alpha_en_three.jet";
-    //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
+    public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
     private CAEEngine mCAEEngine;
     private final String mResPath;
     private String DEFAULT_WAKEUP_WORD = CN_WAKEUP_NIHAO_XIAOWEI;

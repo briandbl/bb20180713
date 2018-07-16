@@ -1,5 +1,6 @@
 package com.performance.ubt.sdkTest.idleActions;
 
+import android.content.Context;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
@@ -10,7 +11,7 @@ import com.performance.ubt.sdkTest.idleActions.actions.LeftTouchHead;
 import com.performance.ubt.sdkTest.idleActions.actions.RightNod;
 import com.performance.ubt.sdkTest.idleActions.interfac.IActionForIdle;
 import com.performance.ubt.sdkTest.idleActions.interfac.IIdlerCallBack;
-
+import com.ubtechinc.alpha.sdk.motion.MotionRobotApi;
 
 
 import java.util.Random;
@@ -63,10 +64,11 @@ public class IdleActionManager implements IIdlerCallBack {
         };
     }
 
-    public static IdleActionManager getInstance() {
+    public static IdleActionManager getInstance(Context mContext) {
         if (instance == null) {
             synchronized (IdleActionManager.class) {
                 if (instance == null) {
+                    MotionRobotApi.get().initializ(mContext);
                     instance = new IdleActionManager();
                 }
             }

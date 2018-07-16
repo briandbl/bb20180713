@@ -73,9 +73,6 @@ public class AcceleratorFragment extends BaseFragement {
 	public static int KEY_HEAD_BREAK = 6;
 	private static int KEY_VOLUME_UP_LYNX=10;
 	private static int KEY_VOLUME_DOWN_LYNX=8;
-	private boolean isKeyup = false;
-	private boolean isKeydown = false;
-	private boolean isKeydot = false;
 	private ImageView mTouchUP;
 	private ImageView mTouchDown;
 	private ImageView mTouchMute;
@@ -286,13 +283,11 @@ public class AcceleratorFragment extends BaseFragement {
 				int keyValue = intent.getIntExtra("value", 6);
 				Log.d("paul", "keyValue:" + keyValue + "ACTION " + action);
 				if (keyValue == KEY_VOLUME_UP || keyValue == KEY_VOLUME_UP_LYNX) {
-					isKeyup = true;
 					mTouchUP.setImageResource(R.drawable.ic_touch_up_focus);
 				} else if (keyValue == KEY_VOLUME_DOWN || keyValue == KEY_VOLUME_DOWN_LYNX) {
-					isKeydown = true;
 					mTouchDown.setImageResource(R.drawable.ic_touch_down_focus);
 				} else if (keyValue == KEY_HEAD_BREAK) {
-					isKeydot = true;
+					//BREAK
 					mTouchUP.setImageResource(R.drawable.ic_touch_up_focus);
 					mTouchDown.setImageResource(R.drawable.ic_touch_down_focus);
 				}

@@ -58,16 +58,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        AlphaRobotApi.get().initializ(this);
+         AlphaRobotApi.get().initializ(this);
         setContentView(R.layout.activity_main);
         mViewPager = (NoSlidingViewPaper) findViewById(R.id.vp_main_container);
         final ArrayList<Fragment> fgLists = new ArrayList<>(TEST_ITEM_NUMBERS);
         fgLists.add(new LedFragment());
         fgLists.add(new MotionFragment());
         //Test standard Android Audio Recorder function
-       //fgLists.add(new RecorderFragment());
+      // fgLists.add(new RecorderFragment());
        //Test Iflytek standard Recorder function
-        fgLists.add(new IflytekRecoderFragment());
+       fgLists.add(new IflytekRecoderFragment());
        fgLists.add(new SysFragment());
         fgLists.add(new AcceleratorFragment());
         FragmentPagerAdapter mAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {

@@ -11,9 +11,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        ndk {
-            abiFilters 'armeabi'
-        }
+            ndk {
+                abiFilters "armeabi-v7a", "x86"
+            }
+
     }
     signingConfigs {
         release {
@@ -75,5 +76,4 @@ dependencies {
     implementation files('libs/ubt_framework_1.0.jar')
     implementation files('libs/alsarecorder.jar')
     implementation files('libs/Cae.jar')
-
 }
