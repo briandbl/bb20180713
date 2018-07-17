@@ -137,10 +137,11 @@ public class IdleActionManager implements IIdlerCallBack {
         Log.d(TAG,"onActionEndCallBack");
         synchronized (actionLock) {
             isPlaying = false;
-            int index = mInterRandom.nextInt(actionInters.length);
-            int time = actionInters[index];
-
-            mHandler.sendEmptyMessageDelayed(ACTION_IDLE_PLAY, time);
+            //JUST ONLY ONE
+//            int index = mInterRandom.nextInt(actionInters.length);
+//            int time = actionInters[index];
+//
+//            mHandler.sendEmptyMessageDelayed(ACTION_IDLE_PLAY, time);
         }
     }
 

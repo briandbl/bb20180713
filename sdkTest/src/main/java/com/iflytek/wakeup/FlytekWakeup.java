@@ -24,7 +24,6 @@ public class FlytekWakeup implements IWakeup{
     public boolean isEn=false;
    //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/nihaoxiaowei.jet";
    public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
-    //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/hello_alpha_en_three.jet";
 
     private CAEEngine mCAEEngine;
     private final String mResPath;
@@ -50,8 +49,6 @@ public class FlytekWakeup implements IWakeup{
                 mCAEEngine.setCAEWParam("ivw_threshold_1".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
                 mCAEEngine.setCAEWParam("ivw_threshold_2".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
                 mCAEEngine.setCAEWParam("ivw_threshold_3".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
-//                mCAEEngine.setCAEWParam("wakeup_externel".getBytes(), String.valueOf(1).getBytes());
-//                mCAEEngine.setCAEWParam("wakeup_enable".getBytes(), String.valueOf(0).getBytes());
             }
         Log.i(TAG,"mWakeupThresholdMic5=" + mWakeupThresholdMic5);
         if (null == mCAEEngine){
