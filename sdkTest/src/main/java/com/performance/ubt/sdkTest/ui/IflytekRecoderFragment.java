@@ -7,6 +7,9 @@
  */
 
 package com.performance.ubt.sdkTest.ui;
+import android.content.res.AssetFileDescriptor;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
@@ -28,15 +31,22 @@ import com.performance.ubt.sdkTest.R;
 import com.performance.ubt.sdkTest.app.ACContext;
 import com.performance.ubt.sdkTest.app.DirType;
 import com.performance.ubt.sdkTest.utils.AngleCheckUtils;
+import com.performance.ubt.sdkTest.utils.MyMediaPlay;
 import com.performance.ubt.sdkTest.utils.audio.AudioFileUtil;
 import com.ubtech.utilcode.utils.LogUtils;
+import com.ubtechinc.alpha.sdk.led.LedBright;
+import com.ubtechinc.alpha.sdk.led.LedColor;
+import com.ubtechinc.alpha.sdk.led.LedRobotApi;
 import com.ubtechinc.alpha.sdk.motion.MotionRobotApi;
+import com.ubtechinc.alpha.serverlibutil.interfaces.ActionResultListener;
+import com.ubtechinc.alpha.serverlibutil.interfaces.LedOperationResultListener;
 import com.ubtechinc.alpha.serverlibutil.interfaces.MotorMoveAngleResultListener;
 import com.ubtechinc.alpha.serverlibutil.interfaces.MotorReadAngleListener;
 import com.ubtechinc.framework.util.thread.HandlerUtils;
 
 
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import com.performance.ubt.sdkTest.utils.audio.AudioTrackUtil;
 /**
@@ -54,10 +64,12 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private static final String MIC_PATH = Environment.getExternalStorageDirectory()+File.separator +DIR;
 	public static final String CN_WAKEUP_NIHAO_XIAOWEI = FlytekWakeup.CN_WAKEUP_NIHAO_XIAOWEI;
 	private String DEFAULT_WAKEUP_WORD = CN_WAKEUP_NIHAO_XIAOWEI;
+	private MyMediaPlay mTTSPlayer;
 
 
 	private Button mBtnStart;
 	private Button mBtnStop;
+	private Button mPlayMusic;
 	private AudioTrackUtil mAudioTrackUtil;
 	private MicUtil mMicUtil;
 //	private SpeechRecognizer mIat;
@@ -79,6 +91,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private int mEngineType = FlytekWakeup.mEngineType;
 	FlytekWakeup mFlytekWakeup;
 	private int curHeaderAngle = 0;
+	private boolean isMusicPlaying=false;
 
 
 
@@ -90,6 +103,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	@Override
 	protected void initView() {
 
+		LedRobotApi.get().initializ(mContext);
 		mAudioTrackUtil = new AudioTrackUtil(getActivity(),MIC_PATH+"1.pcm" );
 		mAudioTrackUtil.setCompletListener(this);
 		//mMicUtil = new MicUtil(getActivity(),this);
@@ -107,6 +121,31 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 			public void onWakeup(String resultStr, int soundAngle) {
 				Log.d(TAG,"soundAngle" +soundAngle);
 				handleAngle(soundAngle);
+
+				HandlerUtils.runUITask(new Runnable() {
+					@Override
+					public void run() {
+						LedRobotApi.get().turnOnHeadLed(LedColor.CYAN, LedBright.NINE, new LedOperationResultListener() {
+							@Override
+							public void onLedOpResult(int nOpId, int nErr) {
+								Log.i(TAG, "turnOffEyeMarquee nOpId " + nOpId);
+								Log.i(TAG, "turnOffEyeMarquee return " + nErr);
+							}
+						});
+						try {
+							Thread.sleep(600);
+						}catch(Exception e){
+							e.printStackTrace();
+						}
+						LedRobotApi.get().turnOffHeadLed(new LedOperationResultListener() {
+							@Override
+							public void onLedOpResult(int nOpId, int nErr) {
+								Log.i(TAG, "turnOffHead nOpId " + nOpId);
+								Log.i(TAG, "turnOffHead return " + nErr);
+							}
+						});
+					}
+				});
 			}
 
 			@Override
@@ -131,6 +170,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		mBtnStart = (Button) mView.findViewById(R.id.btn_recoder_start);
 		mBtnStop = (Button) mView.findViewById(R.id.btn_recoder_stop);
 		mic1_play_btn = (Button)mView.findViewById(R.id.mic1_play_btn);
+		mPlayMusic=(Button)mView.findViewById(R.id.button);
 
 
 		mic1_play_btn.setTag(1);
@@ -139,6 +179,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		mBtnStart.setOnClickListener(this);
 		mBtnStop.setOnClickListener(this);
 		mic1_play_btn.setOnClickListener(this);
+		mPlayMusic.setOnClickListener(this);
 	}
 
 	@Override
@@ -170,6 +211,17 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
                break;
 			case R.id.mic1_play_btn:
 				playAudio(v);
+				break;
+			case R.id.button:
+				if(!isMusicPlaying) {
+					playMusic("audio/test.mp3");
+					isMusicPlaying=true;
+					mPlayMusic.setText("stop music");
+				}else {
+					stopMusic();
+					isMusicPlaying=false;
+					mPlayMusic.setText("play music");
+				}
 				break;
 		}
 	}
@@ -349,11 +401,69 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 					Log.i(TAG, "The Motion nErr:" + nErr);
 				}
 			});
+
+//	 if(newAngle>125){
+//		 MotionRobotApi.get().playAction("Move leftward", new ActionResultListener() {
+//			 @Override
+//			 public void onPlayActionResult(int nOpId, int nErr) {
+//				 Log.i(TAG, "The Action OpId:" + nOpId);
+//				 Log.i(TAG, "The Action nErr:" + nErr);
+//			 }
+//		 });
+//
+//	 }
+//	 if(newAngle<95){
+//		 MotionRobotApi.get().playAction("Move rightward", new ActionResultListener() {
+//			 @Override
+//			 public void onPlayActionResult(int nOpId, int nErr) {
+//				 Log.i(TAG, "The Action OpId:" + nOpId);
+//				 Log.i(TAG, "The Action nErr:" + nErr);
+//			 }
+//		 });
+//	 }
 	}
 
 
+	private void playMusic(String path) {
 
+//		MediaPlayer mpintro = MediaPlayer.create(mContext, Uri.parse(Environment.getExternalStorageDirectory().getPath()+ "/Music/test.mp3"));
+//		Log.d(TAG,"PATH "+Environment.getExternalStorageDirectory().getPath()+ "/Music/test.mp3");
+//		mpintro.setLooping(true);
+//		mpintro.start();
+		if (path == null) {
+			return;
+		}
+		Log.d(TAG, "MUSIC PATH 12312             " + path);
+		if(mTTSPlayer==null) {
+			mTTSPlayer = new MyMediaPlay(mContext);
+		}
+		AssetFileDescriptor afd = null;
+		try {
+			afd = mContext.getAssets().openFd(path);
+			if(!mTTSPlayer.isPlaying()){
+				Log.d(TAG,"isPlaying stop ");
+				mTTSPlayer.stop();
+			}
+			mTTSPlayer.play(afd, false);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(afd != null) {
+					afd.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 
+	private void stopMusic() {
+
+		if(mTTSPlayer!=null) {
+;           mTTSPlayer.stop();
+		}
+	}
 
 
 

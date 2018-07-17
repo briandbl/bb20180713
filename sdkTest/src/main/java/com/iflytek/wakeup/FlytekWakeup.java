@@ -22,15 +22,14 @@ public class FlytekWakeup implements IWakeup{
     private static final String TAG = "FlytekWakeup";
     //WAKE UP workd "你好，小薇"
    // public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/nihaoxiaowei.jet";
-    //the following wake up need debug
-   //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
-   // public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/hello_alpha_en_three.jet";
     public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/alexa_three.jet";
+    //public static final String CN_WAKEUP_NIHAO_XIAOWEI = "ivw/hello_alpha_en_three.jet";
+
     private CAEEngine mCAEEngine;
     private final String mResPath;
     private String DEFAULT_WAKEUP_WORD = CN_WAKEUP_NIHAO_XIAOWEI;
-    public static int mEngineType = CAEEngine.SINGLE_WAKEUP;
-   // public static int mEngineType = CAEEngine.THREE_WAKEUP;
+    //public static int mEngineType = CAEEngine.SINGLE_WAKEUP;
+   public static int mEngineType = CAEEngine.THREE_WAKEUP;
     private int mWakeupThresholdMic5 = 25;
     private final Context mContext;
     private IWakeupListener mWakeupListener;

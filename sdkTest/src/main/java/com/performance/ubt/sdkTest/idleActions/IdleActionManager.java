@@ -42,13 +42,15 @@ public class IdleActionManager implements IIdlerCallBack {
 
     /**flag whether is executing the action*/
     private boolean isPlaying = false;
+    Context mContext;
 
     /**action intervals */
     private int[] actionInters = {10000, 15000, 20000, 25000, 30000};
     private Random mInterRandom = new Random();
 
-    private IdleActionManager() {
+    private IdleActionManager(Context mcontext) {
         initActions();
+        mContext=mcontext;
         mHandlerThread = new HandlerThread("AbsIdleAction");
         mHandlerThread.start();
         mHandler = new Handler(mHandlerThread.getLooper()){
@@ -68,8 +70,7 @@ public class IdleActionManager implements IIdlerCallBack {
         if (instance == null) {
             synchronized (IdleActionManager.class) {
                 if (instance == null) {
-                    MotionRobotApi.get().initializ(mContext);
-                    instance = new IdleActionManager();
+                    instance = new IdleActionManager(mContext);
                 }
             }
         }
@@ -82,8 +83,8 @@ public class IdleActionManager implements IIdlerCallBack {
      */
     private void initActions() {
         actions = new IActionForIdle[2];
-        actions[0] = new LeftTouchHead(this);
-        actions[1] = new RightNod(this);
+        actions[0] = new LeftTouchHead(mContext,this);
+        actions[1] = new RightNod(mContext,this);
     }
 
 

@@ -162,7 +162,7 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
            });
        }else if(type==MOVE_FORWARD){
            //NEED ACTION FILES TO ADD THE ROBOT ACTION DIRECTORY
-           MotionRobotApi.get().playAction("forward", new ActionResultListener() {
+           MotionRobotApi.get().playAction("kezhouqiujian", new ActionResultListener() {
                @Override
                public void onPlayActionResult(int nOpId, int nErr) {
                    Log.i(TAG, "The Action OpId:" + nOpId);

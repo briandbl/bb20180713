@@ -1,6 +1,8 @@
 package com.performance.ubt.sdkTest.idleActions.actions;
 
 
+import android.content.Context;
+
 import com.performance.ubt.sdkTest.idleActions.IdleActionPlay;
 import com.performance.ubt.sdkTest.idleActions.interfac.IIdlerCallBack;
 import com.performance.ubt.sdkTest.utils.PacketData;
@@ -22,8 +24,8 @@ public class RightNod extends IdleActionPlay {
             {120, (byte) 203, 121, 120, 38, 115, (byte)120, 64, (byte)145, (byte)135, (byte)120, (byte)120, (byte)176, 95,  104, (byte)121, (byte)120, (byte)120, (byte)120, (byte)120, 10, 10},
     };
 
-    public RightNod(IIdlerCallBack callBack) {
-        super(callBack);
+    public RightNod(Context mContext, IIdlerCallBack callBack) {
+        super(mContext, callBack);
         packetDatas = new PacketData[index.length];
         initPacket();
     }

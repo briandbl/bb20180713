@@ -1,5 +1,6 @@
 package com.performance.ubt.sdkTest.idleActions;
 
+import android.content.Context;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
@@ -39,7 +40,8 @@ public  class IdleActionPlay implements IActionForIdle {
 
     private short single_time = 900;
 
-   public IdleActionPlay(final IIdlerCallBack callBack){
+   public IdleActionPlay(Context mContext, final IIdlerCallBack callBack){
+       MotionRobotApi.get().initializ(mContext);
         mHandlerThread = new HandlerThread("AbsIdleAction");
         mHandlerThread.start();
         mHandler = new Handler(mHandlerThread.getLooper()){
@@ -52,7 +54,7 @@ public  class IdleActionPlay implements IActionForIdle {
                         if(mPacketIndex < packetDatas.length){
                            int value=0;
                             MotorAngle[] mas = new MotorAngle[20];
-                            for(int i=0;i<18;i++){
+                            for(int i=0;i<20;i++){
                                 mas[i]=new MotorAngle();
                                 mas[i].setId(i+1);
                                 if(packetDatas[mPacketIndex].getBuffer()[i]<0){
@@ -63,6 +65,7 @@ public  class IdleActionPlay implements IActionForIdle {
                                 mas[i].setAngle(value);
                                 Log.i(TAG, "The Motion angles :" +  value);
                             }
+
                             MotionRobotApi.get().setMotorAbsoluteAngles(mas, single_time, new MotorSetAngleResultListener() {
                                 @Override
                                 public void onSetMotorAngles(int nOpId, int nErr) {
