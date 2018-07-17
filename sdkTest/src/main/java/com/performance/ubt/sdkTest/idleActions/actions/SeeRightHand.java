@@ -18,9 +18,9 @@ public class SeeRightHand extends IdleActionPlay {
      * 前20个为动作，后两个数据为动作时间
      */
     final byte[][] index = {
-            {120, (byte) 203, (byte) 121, 120, 38, 115, (byte) 120, 64, (byte) 145, (byte) 135, (byte) 120, (byte) 120, (byte) 176, 95, 104, 121, (byte) 255, (byte) 255, (byte) 120, (byte) 120, 10, 10},
-            {116, (byte) 203, (byte) 180, 120, 37, 114, (byte) 139, 48, (byte) 110, (byte) 151, (byte) 129, (byte) 137, (byte) 175, 97, 102, 126, (byte) 255, (byte) 255, (byte) 145, (byte) 148, 30, 20},
-            {120, (byte) 203, (byte) 121, 120, 38, 115, (byte) 120, 64, (byte) 145, (byte) 135, (byte) 120, (byte) 120, (byte) 176, 95, 104, 121, (byte) 255, (byte) 255, (byte) 120, (byte) 120, 10, 14},
+            {120, (byte) 203, (byte) 121, 120, 38, 115, (byte) 120, 64, (byte) 145, (byte) 135, (byte) 120, (byte) 120, (byte) 176, 95, 104, 121, (byte)120, (byte)120, (byte) 120, (byte) 120, 10, 10},
+            {116, (byte) 203, (byte) 180, 120, 37, 114, (byte) 139, 48, (byte) 110, (byte) 151, (byte) 129, (byte) 137, (byte) 175, 97, 102, 126, (byte)120, (byte)120, (byte) 145, (byte) 148, 30, 20},
+            {120, (byte) 203, (byte) 121, 120, 38, 115, (byte) 120, 64, (byte) 145, (byte) 135, (byte) 120, (byte) 120, (byte) 176, 95, 104, 121, (byte)120, (byte)120, (byte) 120, (byte) 120, 10, 14},
 
     };
 
