@@ -99,6 +99,7 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
                 break;
             case R.id.playAct1:
                 playAction(MOVE_FORWARD);
+                break;
             case R.id.stopAct:
                 stopAction();
                 break;
@@ -162,7 +163,7 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
            });
        }else if(type==MOVE_FORWARD){
            //NEED ACTION FILES TO ADD THE ROBOT ACTION DIRECTORY
-           MotionRobotApi.get().playAction("kezhouqiujian", new ActionResultListener() {
+           MotionRobotApi.get().playAction("arm_stretch", new ActionResultListener() {
                @Override
                public void onPlayActionResult(int nOpId, int nErr) {
                    Log.i(TAG, "The Action OpId:" + nOpId);

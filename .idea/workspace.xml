@@ -11,22 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42858c52-78f0-4294-a883-27f1880900fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/assets/audio/test.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/ArmAndFinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftNod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/NodLiftHands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/RightTouchHead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeLeftHand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeRightHand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/Waist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/WaistAndFinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkTest/src/main/jniLibs/armeabi-v7a/libalsa-jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkTest/src/main/jniLibs/armeabi-v7a/libcae.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkTest/src/main/jniLibs/armeabi-v7a/libmictest.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdkTest/src/main/jniLibs/armeabi-v7a/libsingle_wakeup_cae.so" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sdkTest/src/main/jniLibs/armeabi-v7a/libthree_wakeup_cae.so" afterPath="$PROJECT_DIR$/sdkTest/libs/armeabi/libthree_wakeup_cae.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
@@ -54,11 +38,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/armeabi/libcae.so" afterPath="$PROJECT_DIR$/sdkTest/libs/armeabi/libcae.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/armeabi/libmictest.so" afterPath="$PROJECT_DIR$/sdkTest/libs/armeabi/libmictest.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/armeabi/libsingle_wakeup_cae.so" afterPath="$PROJECT_DIR$/sdkTest/libs/armeabi/libsingle_wakeup_cae.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/armeabi/libthree_wakeup_cae.so" afterPath="$PROJECT_DIR$/sdkTest/libs/armeabi/libthree_wakeup_cae.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/servicesdk-release.aar" afterPath="$PROJECT_DIR$/sdkTest/libs/servicesdk-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/speechcontext-release.aar" afterPath="$PROJECT_DIR$/sdkTest/libs/speechcontext-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/ubt_framework_1.0.jar" afterPath="$PROJECT_DIR$/sdkTest/libs/ubt_framework_1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/libs/utilcode-release.aar" afterPath="$PROJECT_DIR$/sdkTest/libs/utilcode-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/rk-debug.keystore" afterPath="$PROJECT_DIR$/sdkTest/rk-debug.keystore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/assets/audio/test.mp3" afterPath="$PROJECT_DIR$/sdkTest/src/main/assets/audio/test.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/alexa_three.jet" afterPath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/alexa_three.jet" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/hello_alpha_en_three.jet" afterPath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/hello_alpha_en_three.jet" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/nihaoxiaowei.jet" afterPath="$PROJECT_DIR$/sdkTest/src/main/assets/ivw/nihaoxiaowei.jet" />
@@ -175,8 +161,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/app/ServiceContext.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/app/ServiceContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/IdleActionManager.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/IdleActionManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/IdleActionPlay.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/IdleActionPlay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/ArmAndFinger.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/ArmAndFinger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftNod.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftNod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftTouchHead.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftTouchHead.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/NodLiftHands.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/NodLiftHands.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/RightNod.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/RightNod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/RightTouchHead.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/RightTouchHead.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeLeftHand.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeLeftHand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeRightHand.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/SeeRightHand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/Waist.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/Waist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/WaistAndFinger.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/WaistAndFinger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/interfac/IActionForIdle.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/interfac/IActionForIdle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/interfac/IIdlerCallBack.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/interfac/IIdlerCallBack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/recorder/AudioRecordManager.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/recorder/AudioRecordManager.java" />
@@ -193,10 +187,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/RecorderFragment.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/RecorderFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/SysFragment.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/SysFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AngleCheckUtils.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AngleCheckUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CloseUtils.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CloseUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CopyFolderFromAssets.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CopyFolderFromAssets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileUtil.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/IVoiceManager.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/IVoiceManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/PacketData.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/PacketData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/UbtSytem.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/UbtSytem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/audio/AudioFileUtil.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/audio/AudioFileUtil.java" />
@@ -297,6 +293,24 @@
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
               </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="bb20180713" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="bb20180713" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
               <PATH_ELEMENT>
                 <option name="myItemId" value="other" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
@@ -309,37 +323,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeftNod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftNod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IflytekRecoderFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IflytekRecoderFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/IflytekRecoderFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="451" column="33" lean-forward="false" selection-start-line="451" selection-start-column="33" selection-end-line="451" selection-end-column="33" />
-              <folding>
-                <element signature="e#4421#5165#0" expanded="true" />
-                <element signature="e#4547#4783#0" expanded="true" />
-                <element signature="e#4782#4783#0" expanded="true" />
-                <element signature="e#4926#5150#0" expanded="true" />
-                <element signature="e#5149#5150#0" expanded="true" />
-                <element signature="e#5164#5165#0" expanded="true" />
-                <element signature="e#8212#8409#0" expanded="true" />
-                <element signature="e#8408#8409#0" expanded="true" />
-                <element signature="e#8448#8941#0" expanded="true" />
-                <element signature="e#8940#8941#0" expanded="true" />
-                <element signature="e#10410#10725#0" expanded="true" />
-                <element signature="e#10724#10725#0" expanded="true" />
-                <element signature="e#11270#11535#0" expanded="true" />
-                <element signature="e#11534#11535#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="430">
+              <caret line="453" column="17" lean-forward="false" selection-start-line="453" selection-start-column="17" selection-end-line="453" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -360,18 +349,76 @@
       <file leaf-file-name="AcceleratorFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/AcceleratorFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1843">
+            <state relative-caret-position="463">
               <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MotionFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MotionFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/MotionFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="158" column="44" lean-forward="false" selection-start-line="155" selection-start-column="32" selection-end-line="161" selection-end-column="14" />
+            <state relative-caret-position="282">
+              <caret line="101" column="22" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+              <folding>
+                <element signature="e#6250#6519#0" expanded="true" />
+                <element signature="e#6518#6519#0" expanded="true" />
+                <element signature="e#6682#6951#0" expanded="true" />
+                <element signature="e#6950#6951#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MotionRobotApi.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/sdk/motion/MotionRobotApi.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="61" column="15" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionServiceUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/service/ActionServiceUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IActionService.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/aidl/IActionService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlytekWakeup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/iflytek/wakeup/FlytekWakeup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -382,47 +429,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="24" selection-end-column="152" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyMediaPlay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaPlayer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-25/android.jar!/android/media/MediaPlayer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlytekWakeup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/iflytek/wakeup/FlytekWakeup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArmAndFinger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/ArmAndFinger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="34" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -438,6 +447,15 @@
       <find>handler</find>
       <find>R.layout.</find>
       <find>onCompletion</find>
+      <find>-</find>
+      <find>=-8</find>
+      <find>-8</find>
+      <find>e</find>
+      <find>err</find>
+      <find>er</find>
+      <find>q</find>
+      <find>qrobot</find>
+      <find>MotionRobotApi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2567,11 +2585,13 @@
         <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/idleActions/actions/LeftNod.java" />
         <option value="$PROJECT_DIR$/sdkTest/src/main/res/layout/fragment_recoder.xml" />
         <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" />
+        <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" />
+        <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/IflytekRecoderFragment.java" />
+        <option value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/service/ActionServiceUtil.class" />
+        <option value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/aidl/IActionService.class" />
         <option value="$PROJECT_DIR$/sdkTest/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/iflytek/wakeup/FlytekWakeup.java" />
-        <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" />
         <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/MotionFragment.java" />
-        <option value="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/IflytekRecoderFragment.java" />
       </list>
     </option>
   </component>
@@ -2747,44 +2767,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2824,86 +2806,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recorder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="idleActions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="idleActions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2979,126 +2881,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testActionResource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testActionResource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testaction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sdkTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="AndroidView" />
@@ -3135,7 +2917,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.bb20180713 [assembleRelease]">
+  <component name="RunManager" selected="Android App.sdkTest">
     <configuration default="false" name="bb20180713 [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -3242,7 +3024,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531811514243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531822527694" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3290,7 +3072,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531811514243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531822527694" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3322,6 +3104,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -3452,7 +3255,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531811514243" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1531822527695" />
       </method>
     </configuration>
     <list size="3">
@@ -3488,6 +3291,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42858c52-78f0-4294-a883-27f1880900fd" name="Default" comment="" />
@@ -3499,11 +3305,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43228602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3512,27 +3319,26 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04442037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67713976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23726977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21695095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63596964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63596964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43228602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3576,21 +3382,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -3637,13 +3428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/sdk/motion/MotionRobotApi.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="61" column="15" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -3708,9 +3492,9 @@
         <state relative-caret-position="136">
           <caret line="87" column="37" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#2137#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1242#2137#0" expanded="false" />
+            <element signature="e#2136#2137#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3804,17 +3588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="78" lean-forward="false" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/PacketData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -3882,7 +3655,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3890,15 +3665,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/iflytek/wakeup/FlytekWakeup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3906,14 +3675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/MotionFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="158" column="44" lean-forward="false" selection-start-line="155" selection-start-column="32" selection-end-line="161" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -3930,15 +3691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="24" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/AcceleratorFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3953,25 +3708,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/aidl/IActionService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/serverlibutil/service/ActionServiceUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/AcceleratorFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/IflytekRecoderFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="451" column="33" lean-forward="false" selection-start-line="451" selection-start-column="33" selection-end-line="451" selection-end-column="33" />
+        <state relative-caret-position="430">
+          <caret line="453" column="17" lean-forward="false" selection-start-line="453" selection-start-column="17" selection-end-line="453" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/iflytek/wakeup/FlytekWakeup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/servicesdk-release.aar/bb3bca8fe741a880ee374b79d7b9c92b/jars/classes.jar!/com/ubtechinc/alpha/sdk/motion/MotionRobotApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="61" column="15" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/MotionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="101" column="22" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
-            <element signature="e#4421#5165#0" expanded="true" />
-            <element signature="e#4547#4783#0" expanded="true" />
-            <element signature="e#4782#4783#0" expanded="true" />
-            <element signature="e#4926#5150#0" expanded="true" />
-            <element signature="e#5149#5150#0" expanded="true" />
-            <element signature="e#5164#5165#0" expanded="true" />
-            <element signature="e#8212#8409#0" expanded="true" />
-            <element signature="e#8408#8409#0" expanded="true" />
-            <element signature="e#8448#8941#0" expanded="true" />
-            <element signature="e#8940#8941#0" expanded="true" />
-            <element signature="e#10410#10725#0" expanded="true" />
-            <element signature="e#10724#10725#0" expanded="true" />
-            <element signature="e#11270#11535#0" expanded="true" />
-            <element signature="e#11534#11535#0" expanded="true" />
+            <element signature="e#6250#6519#0" expanded="true" />
+            <element signature="e#6518#6519#0" expanded="true" />
+            <element signature="e#6682#6951#0" expanded="true" />
+            <element signature="e#6950#6951#0" expanded="true" />
           </folding>
         </state>
       </provider>
