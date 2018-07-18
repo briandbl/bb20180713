@@ -7,6 +7,7 @@ import android.util.Log;
 import com.iflytek.cae.CAEEngine;
 import com.iflytek.cae.CAEError;
 import com.iflytek.cae.CAEListener;
+import com.iflytek.cae.jni.CAESessionInfo;
 import com.iflytek.cae.util.res.ResourceUtil;
 
 import org.json.JSONException;
@@ -35,6 +36,7 @@ public class FlytekWakeup implements IWakeup{
     private CAEListener mCaeListener ;
     public static volatile FlytekWakeup flytekWakeup;
     public boolean  isThirdPartyWakeUpEngine=true;
+    public static int mWakeUpAngle=-1;
 
 
     private FlytekWakeup(Context mContext){
@@ -143,7 +145,14 @@ public class FlytekWakeup implements IWakeup{
      */
     public void externalWakeupEngineTriggerSetCaeParam(){
         CAEEngine.getInstance().CAESetWParam( "wakeup_flag", "1");
+        getCaeAngelParam();
     }
 
+    private void getCaeAngelParam(){
+        CAESessionInfo sessionInfo = new CAESessionInfo();
+        CAEEngine.getInstance().CAEGetWParam("angle_value", sessionInfo);
+        Log.d(TAG, "Wakeup Angles ："+sessionInfo.buffer[0]);
+        mWakeUpAngle=sessionInfo.buffer[0];
+    }
 
 }

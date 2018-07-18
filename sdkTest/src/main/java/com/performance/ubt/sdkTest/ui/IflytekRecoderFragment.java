@@ -95,7 +95,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 
 
 
-
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		return super.onCreateView(inflater, container, savedInstanceState);
@@ -105,9 +104,8 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	protected void initView() {
 
 		LedRobotApi.get().initializ(mContext);
-		mAudioTrackUtil = new AudioTrackUtil(getActivity(),MIC_PATH+"1.pcm" );
+		mAudioTrackUtil = new AudioTrackUtil(getActivity(), MIC_PATH + "1.pcm");
 		mAudioTrackUtil.setCompletListener(this);
-
 		mRecorder = AlsaAudioRecorder.get();
 		mRecorder.setPcmDataListener(mPcmListener);
 
@@ -239,7 +237,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private void recordAudio(){
 		isAndroidRecording = false;
 		isAndroidPlaying = false;
-			mAudioTrackUtil.stop();
+		mAudioTrackUtil.stop();
 			ACContext.cleanPath(DirType.cache);
 			if(!isRecording) {
 				initRecordFile();
@@ -263,7 +261,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 				showTip("File not found " + 1+ "number mic file");
 				return;
 			}
-	//		mAudioTrackUtil.stop();
+			mAudioTrackUtil.stop();
 			isAndroidPlaying = false;
 			mAudioTrackUtil.setPath(MIC_PATH + 1 + ".pcm");
 			mAudioTrackUtil.setDataSource(mAudioTrackUtil.initPCMData(MIC_PATH + 1+ ".pcm"));
