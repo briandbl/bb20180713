@@ -17,6 +17,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 import com.iflytek.cae.CAEEngine;
@@ -70,6 +71,8 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private Button mBtnStart;
 	private Button mBtnStop;
 	private Button mPlayMusic;
+	private Button mEmulateWakeup;
+	private TextView mWakeupAngleText;
 	private AudioTrackUtil mAudioTrackUtil;
 	private MicUtil mMicUtil;
 //	private SpeechRecognizer mIat;
@@ -92,6 +95,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	FlytekWakeup mFlytekWakeup;
 	private int curHeaderAngle = 0;
 	private boolean isMusicPlaying=false;
+
 
 
 
@@ -120,6 +124,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 			@Override
 			public void onWakeup(String resultStr, int soundAngle) {
 				Log.d(TAG,"soundAngle" +soundAngle);
+				mWakeupAngleText.setText("Angle："+soundAngle);
 				handleAngle(soundAngle);
 
 				HandlerUtils.runUITask(new Runnable() {
@@ -171,6 +176,8 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		mBtnStop = (Button) mView.findViewById(R.id.btn_recoder_stop);
 		mic1_play_btn = (Button)mView.findViewById(R.id.mic1_play_btn);
 		mPlayMusic=(Button)mView.findViewById(R.id.button);
+		mEmulateWakeup=(Button)mView.findViewById(R.id.button2);
+		mWakeupAngleText=(TextView)mView.findViewById(R.id.textView);
 
 
 		mic1_play_btn.setTag(1);
@@ -180,6 +187,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		mBtnStop.setOnClickListener(this);
 		mic1_play_btn.setOnClickListener(this);
 		mPlayMusic.setOnClickListener(this);
+		mEmulateWakeup.setOnClickListener(this);
 	}
 
 	@Override
@@ -222,6 +230,9 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 					isMusicPlaying=false;
 					mPlayMusic.setText("play music");
 				}
+				break;
+			case R.id.button2:
+				mFlytekWakeup.externalWakeupEngineTriggerSetCaeParam();
 				break;
 		}
 	}
@@ -367,7 +378,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 
 	private void handleAngle(int angle){
 		if (curHeaderAngle == 0) {
-
 			MotionRobotApi.get().readAbsoluteAngle(19, false, new MotorReadAngleListener() {
 				@Override
 				public void onReadMotorAngle(int nOpId, int nErr, int angle) {
@@ -401,26 +411,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 					Log.i(TAG, "The Motion nErr:" + nErr);
 				}
 			});
-
-//	 if(newAngle>125){
-//		 MotionRobotApi.get().playAction("Move leftward", new ActionResultListener() {
-//			 @Override
-//			 public void onPlayActionResult(int nOpId, int nErr) {
-//				 Log.i(TAG, "The Action OpId:" + nOpId);
-//				 Log.i(TAG, "The Action nErr:" + nErr);
-//			 }
-//		 });
-//
-//	 }
-//	 if(newAngle<95){
-//		 MotionRobotApi.get().playAction("Move rightward", new ActionResultListener() {
-//			 @Override
-//			 public void onPlayActionResult(int nOpId, int nErr) {
-//				 Log.i(TAG, "The Action OpId:" + nOpId);
-//				 Log.i(TAG, "The Action nErr:" + nErr);
-//			 }
-//		 });
-//	 }
 	}
 
 

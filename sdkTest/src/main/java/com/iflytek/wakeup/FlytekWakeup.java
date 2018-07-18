@@ -35,6 +35,7 @@ public class FlytekWakeup implements IWakeup{
     private IWakeupListener mWakeupListener;
     private CAEListener mCaeListener ;
     public static volatile FlytekWakeup flytekWakeup;
+    public boolean  isThirdPartyWakeUpEngine=false;
 
 
     private FlytekWakeup(Context mContext){
@@ -115,6 +116,9 @@ public class FlytekWakeup implements IWakeup{
             };
         }
         mCAEEngine.setCAEListener(mCaeListener);
+        if(isThirdPartyWakeUpEngine){
+            initSetCaeMode();
+        }
     }
 
     @Override
@@ -130,5 +134,24 @@ public class FlytekWakeup implements IWakeup{
         mCAEEngine = null;
         flytekWakeup =null;
     }
+
+    /**
+     *SET CAE MODE ,INITILIAZE NEED CALL THE FUNCTION
+     */
+    private void initSetCaeMode(){
+        /**
+         * set wakeup mode
+         **/
+        CAEEngine.getInstance().setCAEWParam( "wakeup_externel".getBytes(), "1".getBytes());
+        CAEEngine.getInstance().setCAEWParam( "wakeup_enable".getBytes(), "0".getBytes());
+    }
+
+    /**
+     * External wakeup engine trigger to call the function
+     */
+    public void externalWakeupEngineTriggerSetCaeParam(){
+        CAEEngine.getInstance().setCAEWParam( "wakeup_flag".getBytes(), "1".getBytes());
+    }
+
 
 }
