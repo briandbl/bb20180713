@@ -74,8 +74,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private Button mEmulateWakeup;
 	private TextView mWakeupAngleText;
 	private AudioTrackUtil mAudioTrackUtil;
-	private MicUtil mMicUtil;
-//	private SpeechRecognizer mIat;
 	private AlsaAudioRecorder mRecorder;
 	private CAEEngine mCaeEngine;
 	private ExtractAudioThread mExtractThread;
@@ -91,7 +89,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 	private boolean isAndroidRecording = false;
 	/** Android通道是否正在播放录音 **/
 	private boolean isAndroidPlaying = false;
-	private int mEngineType = FlytekWakeup.mEngineType;
 	FlytekWakeup mFlytekWakeup;
 	private int curHeaderAngle = 0;
 	private boolean isMusicPlaying=false;
@@ -110,11 +107,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		LedRobotApi.get().initializ(mContext);
 		mAudioTrackUtil = new AudioTrackUtil(getActivity(),MIC_PATH+"1.pcm" );
 		mAudioTrackUtil.setCompletListener(this);
-		//mMicUtil = new MicUtil(getActivity(),this);
-
-//		mIat = SpeechRecognizer.createRecognizer(getActivity(), null);
-//		mIat.setParameter(SpeechConstant.AUDIO_FORMAT,"pcm");
-//		mIat.setParameter(SpeechConstant.ASR_AUDIO_PATH, PATH);
 
 		mRecorder = AlsaAudioRecorder.get();
 		mRecorder.setPcmDataListener(mPcmListener);
@@ -167,7 +159,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 		mResPath = ResourceUtil.generateResourcePath(mContext,ResourceUtil.RESOURCE_TYPE.assets, DEFAULT_WAKEUP_WORD);
 		Log.d(TAG,"mResPath "+mResPath);
 		if(mCaeEngine == null)
-			mCaeEngine = CAEEngine.createInstance(mResPath, mEngineType);
+			mCaeEngine = CAEEngine.createInstance(mResPath);
 
 		Log.d(TAG,"mResPath  "+mResPath);
 
@@ -271,7 +263,7 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 				showTip("File not found " + 1+ "number mic file");
 				return;
 			}
-			mAudioTrackUtil.stop();
+	//		mAudioTrackUtil.stop();
 			isAndroidPlaying = false;
 			mAudioTrackUtil.setPath(MIC_PATH + 1 + ".pcm");
 			mAudioTrackUtil.setDataSource(mAudioTrackUtil.initPCMData(MIC_PATH + 1+ ".pcm"));
@@ -415,11 +407,6 @@ public class IflytekRecoderFragment extends BaseFragement implements AudioTrackU
 
 
 	private void playMusic(String path) {
-
-//		MediaPlayer mpintro = MediaPlayer.create(mContext, Uri.parse(Environment.getExternalStorageDirectory().getPath()+ "/Music/test.mp3"));
-//		Log.d(TAG,"PATH "+Environment.getExternalStorageDirectory().getPath()+ "/Music/test.mp3");
-//		mpintro.setLooping(true);
-//		mpintro.start();
 		if (path == null) {
 			return;
 		}

@@ -26,7 +26,7 @@ public class AlsaAudioRecorder  implements IAudioRecorder{
 
     private AlsaAudioRecorder(){
         mAudioRecorder = AlsaRecorder.createInstance(0);
-        AlsaJni.showJniLog(false);
+       // AlsaJni.showJniLog(false);
     }
     @Override
     public void startRecord() {

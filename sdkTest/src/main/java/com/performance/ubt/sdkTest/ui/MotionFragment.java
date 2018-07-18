@@ -45,7 +45,7 @@ public class MotionFragment extends BaseFragement implements View.OnClickListene
 
     private class ProcessThread extends Thread {
         public void run() {
-                CopyFolderFromAssets.copyFolderFromAssets(mContext, "testActionResource/testaction", extenalPath + "/actions");
+//                CopyFolderFromAssets.copyFolderFromAssets(mContext, "testActionResource/testaction", extenalPath + "/actions");
         }
     }
 

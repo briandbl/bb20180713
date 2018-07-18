@@ -3,6 +3,7 @@ package com.iflytek.wakeup;
 import android.content.Context;
 import android.util.Log;
 
+
 import com.iflytek.cae.CAEEngine;
 import com.iflytek.cae.CAEError;
 import com.iflytek.cae.CAEListener;
@@ -28,14 +29,12 @@ public class FlytekWakeup implements IWakeup{
     private CAEEngine mCAEEngine;
     private final String mResPath;
     private String DEFAULT_WAKEUP_WORD = CN_WAKEUP_NIHAO_XIAOWEI;
-    //public static int mEngineType = CAEEngine.SINGLE_WAKEUP; //CN
-   public static int mEngineType = CAEEngine.THREE_WAKEUP;//EN
     private int mWakeupThresholdMic5 = 25;
     private final Context mContext;
     private IWakeupListener mWakeupListener;
     private CAEListener mCaeListener ;
     public static volatile FlytekWakeup flytekWakeup;
-    public boolean  isThirdPartyWakeUpEngine=false;
+    public boolean  isThirdPartyWakeUpEngine=true;
 
 
     private FlytekWakeup(Context mContext){
@@ -43,14 +42,7 @@ public class FlytekWakeup implements IWakeup{
         mResPath = ResourceUtil.generateResourcePath(mContext,ResourceUtil.RESOURCE_TYPE.assets, DEFAULT_WAKEUP_WORD);
         Log.i(TAG,"mResPath=" + mResPath);
         if(mCAEEngine == null)
-            mCAEEngine = CAEEngine.createInstance(mResPath, mEngineType);
-       // mCAEEngine.setShowCAELog(false);
-        //CAE三唤醒词，set wakeup threshold...
-            if (mEngineType == CAEEngine.THREE_WAKEUP) {
-                mCAEEngine.setCAEWParam("ivw_threshold_1".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
-                mCAEEngine.setCAEWParam("ivw_threshold_2".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
-                mCAEEngine.setCAEWParam("ivw_threshold_3".getBytes(), String.valueOf(mWakeupThresholdMic5).getBytes());
-            }
+            mCAEEngine = CAEEngine.createInstance(mResPath);
         Log.i(TAG,"mWakeupThresholdMic5=" + mWakeupThresholdMic5);
         if (null == mCAEEngine){
             Log.i(TAG,"CAEEngine create null mResPath = "+mResPath);
@@ -142,15 +134,15 @@ public class FlytekWakeup implements IWakeup{
         /**
          * set wakeup mode
          **/
-        CAEEngine.getInstance().setCAEWParam( "wakeup_externel".getBytes(), "1".getBytes());
-        CAEEngine.getInstance().setCAEWParam( "wakeup_enable".getBytes(), "0".getBytes());
+        CAEEngine.getInstance().CAESetWParam( "wakeup_externel", "1");
+        CAEEngine.getInstance().CAESetWParam( "wakeup_enable", "0");
     }
 
     /**
      * External wakeup engine trigger to call the function
      */
     public void externalWakeupEngineTriggerSetCaeParam(){
-        CAEEngine.getInstance().setCAEWParam( "wakeup_flag".getBytes(), "1".getBytes());
+        CAEEngine.getInstance().CAESetWParam( "wakeup_flag", "1");
     }
 
 
