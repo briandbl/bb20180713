@@ -75,6 +75,6 @@ dependencies {
     compile(name: 'speechcontext-release', ext: 'aar')
     compile(name: 'utilcode-release', ext: 'aar')
     implementation files('libs/ubt_framework_1.0.jar')
-    implementation files('libs/alsarecorder.jar')
-    implementation files('libs/Cae.jar')
+    compile project(path: ':speechnuance')
+    compile project(path: ':speechal')
 }

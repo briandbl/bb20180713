@@ -1,1 +1,3 @@
-include ':sdkTest'
+include ':sdkTest', ':speechal'
+include ':speechnuance'
+include  ':ifytekcae'

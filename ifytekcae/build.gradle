@@ -1,0 +1,61 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion  25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            //   abiFilters "armeabi"
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+         //   signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+          //  signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug_proguard {
+            minifyEnabled false
+          //  signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+
+
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    google()
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile(name: 'utilcode-release', ext: 'aar')
+    implementation files('libs/alsarecorder.jar')
+    implementation files('libs/Cae.jar')
+    compile project(':speechal')
+
+}

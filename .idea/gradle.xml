@@ -8,7 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ifytekcae" />
             <option value="$PROJECT_DIR$/sdkTest" />
+            <option value="$PROJECT_DIR$/speechal" />
+            <option value="$PROJECT_DIR$/speechnuance" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

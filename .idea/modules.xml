@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bb20180713.iml" filepath="$PROJECT_DIR$/bb20180713.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifytekcae/ifytekcae.iml" filepath="$PROJECT_DIR$/ifytekcae/ifytekcae.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdkTest/sdkTest.iml" filepath="$PROJECT_DIR$/sdkTest/sdkTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechal/speechal.iml" filepath="$PROJECT_DIR$/speechal/speechal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speechnuance/speechnuance.iml" filepath="$PROJECT_DIR$/speechnuance/speechnuance.iml" />
     </modules>
   </component>
 </project>
