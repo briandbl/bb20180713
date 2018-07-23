@@ -12,23 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42858c52-78f0-4294-a883-27f1880900fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifytekcae/libs/Msc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libmsc.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileRecordVoice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/EngineType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IGrammarListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IRecognizerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/ISpeechRecognizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/RecognizerProxy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__cygwin64_home_brian_li_bb20180713_sdkTest_libs_Cae_jar_unspecified_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/__local_aars___C__cygwin64_home_brian_li_bb20180713_sdkTest_libs_alsarecorder_jar_unspecified_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libmictest.so" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libSoundLocatorJni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libSoundLocatorJni.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libalsa-jni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libalsa-jni.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libcae-jni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae-jni.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libcae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libsingle_wakeup_cae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libsingle_wakeup_cae.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ifytekcae/libs/armeabi-v7a/libthree_wakeup_cae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libthree_wakeup_cae.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
@@ -45,6 +28,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/libs/Cae.jar" afterPath="$PROJECT_DIR$/ifytekcae/libs/Cae.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/libs/Msc.jar" afterPath="$PROJECT_DIR$/ifytekcae/libs/Msc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/libs/alsarecorder.jar" afterPath="$PROJECT_DIR$/ifytekcae/libs/alsarecorder.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/libs/utilcode-release.aar" afterPath="$PROJECT_DIR$/ifytekcae/libs/utilcode-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/56652373.jet" afterPath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/56652373.jet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/alexa_three.jet" afterPath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/alexa_three.jet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/hello_alpha_en_three.jet" afterPath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/hello_alpha_en_three.jet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/nihaoxiaowei.jet" afterPath="$PROJECT_DIR$/ifytekcae/src/main/assets/ivw/nihaoxiaowei.jet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libSoundLocatorJni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libSoundLocatorJni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libalsa-jni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libalsa-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae-jni.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae-jni.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libcae.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libmsc.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libmsc.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libsingle_wakeup_cae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libsingle_wakeup_cae.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libthree_wakeup_cae.so" afterPath="$PROJECT_DIR$/ifytekcae/src/main/jniLibs/armeabi-v7a/libthree_wakeup_cae.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileChanges/last-build.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/sdkTest/.gradle/4.1/fileHashes/fileHashes.lock" />
@@ -88,6 +86,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/sdkTest/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/libs/utilcode-release.aar" afterPath="$PROJECT_DIR$/speechal/libs/utilcode-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/libs/NuanceToolkit_1.6.6.2-B001_REL_internal.jar" afterPath="$PROJECT_DIR$/speechnuance/libs/NuanceToolkit_1.6.6.2-B001_REL_internal.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/libs/utilcode-release.aar" afterPath="$PROJECT_DIR$/speechnuance/libs/utilcode-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/nuance_data.zip" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/nuance_data.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_cfg3.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_cfg3.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_mpthreevadml.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_mpthreevadml.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_samantha_cfg3.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/clc_enu_samantha_cfg3.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/lid.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/lid.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/select_samantha_bet3f22.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/select_samantha_bet3f22.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/synth_med_fxd_bet3f22.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/synth_med_fxd_bet3f22.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/ve_pipeline_enu_samantha_22_bet3.hdr.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vexpressive/ve_pipeline_enu_samantha_22_bet3.hdr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/acmod5_4000_enu_gen_car_f16_v2_0_0.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/acmod5_4000_enu_gen_car_f16_v2_0_0.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_cfg3.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_cfg3.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_cfg3_v6_0_4.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_cfg3_v6_0_4.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_mpthreevadml.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_mpthreevadml.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_samantha_cfg3.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/clc_enu_samantha_cfg3.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/lid.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/lid.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/select_samantha_bet3f22.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/select_samantha_bet3f22.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/synth_med_fxd_bet3f22.dat.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/synth_med_fxd_bet3f22.dat.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/ubt_grammar.fcf.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/ubt_grammar.fcf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/ve_pipeline_enu_samantha_22_bet3.hdr.jpg" afterPath="$PROJECT_DIR$/speechnuance/src/main/assets/vocon/ve_pipeline_enu_samantha_22_bet3.hdr.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_elvis.so" afterPath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_elvis.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_native_utils.so" afterPath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_native_utils.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_speex.so" afterPath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_speex.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_vex.so" afterPath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_vex.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_vocon_neon.so" afterPath="$PROJECT_DIR$/speechnuance/src/main/jniLibs/armeabi-v7a/libdmt_vocon_neon.so" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
@@ -123,12 +147,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/.gitignore" afterPath="$PROJECT_DIR$/ifytekcae/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/build.gradle" afterPath="$PROJECT_DIR$/ifytekcae/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/proguard-rules.pro" afterPath="$PROJECT_DIR$/ifytekcae/proguard-rules.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/readme.md" afterPath="$PROJECT_DIR$/ifytekcae/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ifytekcae/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/IMicCallback.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/IMicCallback.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/MIC.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/MIC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/MicUtil.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/mic/MicUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/recorder/AlsaAudioRecorder.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/recorder/AlsaAudioRecorder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/utils/UbtSytem.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/utils/UbtSytem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/wakeup/FlytekWakeup.java" afterPath="$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/wakeup/FlytekWakeup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ifytekcae/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/ifytekcae/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/.gitignore" afterPath="$PROJECT_DIR$/sdkTest/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/.idea/gradle.xml" afterPath="$PROJECT_DIR$/sdkTest/.idea/gradle.xml" />
@@ -180,6 +210,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/AudioFocus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CloseUtils.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CloseUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CopyFolderFromAssets.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/CopyFolderFromAssets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileRecordVoice.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileRecordVoice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileUtil.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/FileUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/IVoiceManager.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/IVoiceManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" afterPath="$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/MyMediaPlay.java" />
@@ -217,6 +248,43 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdkTest/src/test/java/com/performance/ubt/sdkTest/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/sdkTest/src/test/java/com/performance/ubt/sdkTest/ExampleUnitTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdktest.iml" afterPath="$PROJECT_DIR$/sdktest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/.gitignore" afterPath="$PROJECT_DIR$/speechal/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/build.gradle" afterPath="$PROJECT_DIR$/speechal/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/proguard-rules.pro" afterPath="$PROJECT_DIR$/speechal/proguard-rules.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/readme.md" afterPath="$PROJECT_DIR$/speechal/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/speechcontext.md" afterPath="$PROJECT_DIR$/speechal/speechcontext.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/speechal/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/SpeechUtil.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/SpeechUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/EngineType.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/EngineType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IGrammarListener.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IGrammarListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IRecognizerListener.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/IRecognizerListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/ISpeechRecognizer.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/ISpeechRecognizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/RecognizerProxy.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/RecognizerProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/IAudioRecorder.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/IAudioRecorder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/IPcmListener.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/IPcmListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/RecorderProxy.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recorder/RecorderProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/ITTsListener.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/ITTsListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/ITtser.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/ITtser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/TtserProxy.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/ttser/TtserProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/IWakeup.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/IWakeup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/IWakeupListener.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/IWakeupListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/WakeuperProxy.java" afterPath="$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/wakeuper/WakeuperProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechal/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/speechal/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/.gitignore" afterPath="$PROJECT_DIR$/speechnuance/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/build.gradle" afterPath="$PROJECT_DIR$/speechnuance/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/proguard-rules.pro" afterPath="$PROJECT_DIR$/speechnuance/proguard-rules.pro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/readme.md" afterPath="$PROJECT_DIR$/speechnuance/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/speechnuance/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/NuanceUtil.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/NuanceUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/JsonParser.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/JsonParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceConstants.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceServerSettings.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceServerSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceSettings.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/nuance/NuanceSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/recognizer/NuanceRecognizer.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/recognizer/NuanceRecognizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/recorder/PcmAudioSource.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/recorder/PcmAudioSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/ttser/NuanceTtser.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/ttser/NuanceTtser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/wakeuper/NuanceWakeuper.java" afterPath="$PROJECT_DIR$/speechnuance/src/main/java/com/ubtechinc/alpha/nuance/wakeuper/NuanceWakeuper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speechnuance/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/speechnuance/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -302,7 +370,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IflytekRecoderFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IflytekRecoderFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/ui/IflytekRecoderFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2204">
@@ -312,6 +380,16 @@
                 <element signature="e#9949#10336#0" expanded="true" />
                 <element signature="e#10335#10336#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlytekWakeup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/wakeup/FlytekWakeup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -367,16 +445,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecognizerProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/speechal/src/main/java/com/ubtechinc/alpha/speech/recognizer/RecognizerProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -5770,8 +5838,8 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="94" />
+    <option name="y" value="248" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -5816,20 +5884,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb20180713" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ifytekcae" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5986,7 +6040,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532329487071" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532336828692" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -6034,7 +6088,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532329487071" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532336828692" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -6217,7 +6271,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532329487071" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1532336828696" />
       </method>
     </configuration>
     <list size="3">
@@ -6270,7 +6324,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="94" y="248" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -6288,7 +6343,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.4935275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -6624,14 +6679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/wakeup/FlytekWakeup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdkTest/src/main/java/com/performance/ubt/sdkTest/utils/audio/AudioFileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -6737,6 +6784,14 @@
             <element signature="e#9949#10336#0" expanded="true" />
             <element signature="e#10335#10336#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ifytekcae/src/main/java/com/ubtechinc/alpha/ifytek/wakeup/FlytekWakeup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
